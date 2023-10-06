@@ -1,3 +1,3 @@
 FROM tomcat:9
 LABEL app=my-app
-COPY target/*.war /usr/local/tomcat/webapps/webapp.war
+COPY target/*.war /var/lib/jenkins/webapp.war
